@@ -1,0 +1,121 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #a19f9880;
+    text-align: center;
+
+}
+
+.session{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    background-color: rgba(58, 58, 54, 0.911);
+    border-radius: 30px;
+    box-shadow: -8px 15px 20px 0px rgb(33 37 41 / 7%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h4{
+    font-size: 23px;
+}
+
+
+.principal-enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+p .envio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.principal-enviar p{
+ padding: 1rem;
+}
+
+.logo{
+    width: 10vw;
+}
+
+.card-footer{
+    text-align: center;
+    font-size: 10pt;
+}
+
+.input-form{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #212529bb;
+    border-radius: 30px;
+}
+
+
+.btn{
+    margin-bottom: 10px  ;
+    background-color: #ff0015;
+    color: white;
+    width: 100px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn2{
+    margin-bottom: 10px  ;
+    background-color: #fff200;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.btn:hover{
+    background-color: #dd0012;
+}
+
+a{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn-send{
+    margin-bottom: 1px;
+    background-color: #00b7ff;
+    color: white;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn-send:hover{
+    background-color: #086e96;
+}
+
+
